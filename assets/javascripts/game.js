@@ -222,14 +222,14 @@ Segredario.Game.prototype = {
 
   npcs: [
     { gid: 675, name: 'mario', message: 'Alguém lhe aguarda no castelo.' },
-    { gid: 676, name: 'yoshi', message: 'Bem vinda ao meu mundo!' },
-    { gid: 677, name: 'luigi', message: 'Você não é meu irmão. Onde será que ele está?' },
-    { gid: 678, name: 'toad', message: 'Feliz em te ver por aqui.' },
+    { gid: 676, name: 'yoshi', message: 'Bem vinda ao nosso mundo!' },
+    { gid: 677, name: 'luigi', message: 'Quem você está procurando? Alguém que te ama está atrás de você.' },
+    { gid: 678, name: 'toad', message: 'Ele está feliz em te ver por aqui.' },
     { gid: 679, name: 'dk', message: 'Siga para o castelo.' },
-    { gid: 680, name: 'diddy', message: 'Onde estão as bananas?' },
-    { gid: 681, name: 'fox', message: 'Role feito um barril!' },
-    { gid: 682, name: 'pikachu', message: 'Pika, pika, pikachu!' },
-    { gid: 683, name: 'link', message: 'É perigoso ir sozinha. Entre no castelo!' },
+    { gid: 680, name: 'diddy', message: 'Por que esse medo todo? Ele te quer mais do que tudo' },
+    { gid: 681, name: 'fox', message: 'Vai logo, não foge desse amor!!' },
+    { gid: 682, name: 'pikachu', message: 'Você já está bem perto!!!!' },
+    { gid: 683, name: 'link', message: 'É perigoso ir sozinha. Entre no castelo! Ele te aguarda' },
   ],
 
   currentSpeechBubble: null,

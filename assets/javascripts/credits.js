@@ -9,20 +9,15 @@ Segredario.Credits.prototype = {
     this.createText();
     this.createBMG();
 
-    this.createTitle('- Super Segredário -');
+    this.createTitle('- Super Segredo da Manu -');
 
-    this.createParagraph('Mauro George');
+    this.createParagraph('Thiago Souza');
     this.createTitle('Director');
-    this.createParagraph('Mauro George');
+    this.createParagraph('Thiago Souza');
 
-    this.createTitle('Special Thanks');
-    this.createParagraph('Maria Nilza');
-    this.createParagraph('José Mauro');
-    this.createParagraph('Gilton Monteiro');
-    this.createParagraph('Heloisa Pereira');
-    this.createParagraph('Julio Monteiro');
-    this.createParagraph('Matheus Brás');
-    this.createParagraph('Cayo Medeiros(Yogodoshi)');
+    this.createTitle('Agradecimentos');
+    this.createParagraph('Emanuella Lopes');
+    this.createParagraph('Todos que nos amam e torcem por nós.');
     this.createParagraph('Nintendo');
 
     this.createTitle('HTML5 Game Framework');
@@ -47,10 +42,10 @@ Segredario.Credits.prototype = {
     this.createParagraph('Super Mario Bros Alphabet');
     this.createParagraph('Copyright © 2016 Aryel Filipe');
 
-    this.createTitle('Thank You For Playing!');
+    this.createTitle('Thank you for playing!');
 
-    this.createTitle('Produced By');
-    this.createParagraph('Mauro George');
+    this.createTitle('Produced by');
+    this.createParagraph('Thiago Souza');
 
 
     this.createTextAnimations();
