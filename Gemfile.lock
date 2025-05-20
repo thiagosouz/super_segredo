@@ -44,7 +44,7 @@ GEM
       faraday-net_http (>= 2.0, < 3.1)
       ruby2_keywords (>= 0.0.4)
     faraday-net_http (3.0.2)
-    ffi (1.17.2)
+    ffi (1.17.2-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     github-pages (231)
@@ -263,6 +263,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.8.0)
+    webrick (1.9.1)
 
 PLATFORMS
   x86_64-linux
@@ -271,9 +272,10 @@ DEPENDENCIES
   github-pages
   jekyll
   json (~> 2.0)
+  webrick
 
 RUBY VERSION
-   ruby 2.7.8p225
+   ruby 3.2.2p53
 
 BUNDLED WITH
    2.3.26

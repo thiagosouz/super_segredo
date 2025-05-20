@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
-
-ruby '2.7.8'
+ruby '3.2.2'
+gem 'webrick'
 gem 'json', '~> 2.0'
 gem 'jekyll'
 gem 'github-pages'
