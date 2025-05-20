@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+echo "Building Jekyll site..."
+bundle exec jekyll build
+
+echo "Starting NGINX..."
+exec nginx -g "daemon off;"
