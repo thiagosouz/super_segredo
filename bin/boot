@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+echo "Building site with Jekyll..."
+bundle exec jekyll build
+
+echo "Starting server..."
+exec heroku-php-apache2
