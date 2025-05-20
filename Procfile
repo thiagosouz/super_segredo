@@ -1,1 +1,1 @@
-web: bin/boot
+web: nginx -p $PWD -c nginx.conf
