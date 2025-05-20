@@ -1,1 +1,1 @@
-jekyll serve --host 0.0.0.0 --port $PORT
+web: bundle exec jekyll build && bundle exec ruby -run -e httpd _site -p $PORT
