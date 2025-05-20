@@ -1,1 +1,1 @@
-web: nginx -p $PWD -c nginx.conf
+web: jekyll serve --host 0.0.0.0 --port $PORT
