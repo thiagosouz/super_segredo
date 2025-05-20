@@ -269,6 +269,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll
   json (~> 2.0)
 
 RUBY VERSION
